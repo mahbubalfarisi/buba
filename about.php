@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <title>BUBA</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body, html {
-            height: 100%;
-            max-height: 100%;
-            overflow-y: hidden;
-        }
+  <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/w3.css">
+  <link rel="stylesheet" href="./css/mainstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Megrim|Montserrat:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        body,h1,h2,h3,h4,h5 {
-            font-family: 'Raleway', sans-serif
-        }
+  <body class="w3-light-grey">
 
-        .w3-third img{
-            margin-bottom: -6px;
-            opacity: 0.8;
-            cursor: pointer
-        }
-
-        .w3-third img:hover{
-            opacity: 1
-        }
-    </style>
-    <body style="height: auto; width: 100%; vertical-align: middle; background-color: #000; background-size: cover; background-repeat: no-repeat; background-position: center;">
-        <!-- !PAGE CONTENT! -->
-        <div class="w3-main w3-center">
-            <div class="w3-container" style="padding: 0px !important">
-                <div class="w3-row">
-                    <div class="w3-row">
-                        <div class="w3-col l12 m12 s12" style="background-color: rgb(0,140,140); height: 100px">
-                        </div>
-                        <div class="w3-col l1 m2 s3" style="background-color: rgb(0,0,0); height: 100px">
-                        </div>
-                        <a href="./index">
-                            <div class="w3-col l1 m2 s3 w3-center w3-hover-shadow" style="background-color: rgb(0,140,140); color: #fff; height: 100px; align-items: center; vertical-align: middle;">
-                                <i class="fa fa-chevron-up w3-text-white" style="font-size: 30px;"></i>
-                                <p>BACK</p>
-                            </div>
-                        </a>
-                        <div class="w3-col l10 m9 s8" style="background-color: rgb(0,0,0); color: #fff; height: 100px; text-align: left; padding-left: 10px;">
-                            <h1>
-                                <b>ABOUT</b>
-                            </h1>
-                        </div>
-                        <div class="w3-col l1 m2 s3" style="background-color: rgb(0,0,0); height: 100px">
-                        </div>
-                        <a href="./index">
-                            <div class="w3-col l1 m2 s3 w3-center w3-hover-shadow" style="background-color: rgb(0,140,140); color: #fff; height: 100px; align-items: center; vertical-align: middle;">
-                            </div>
-                        </a>
-                    </div>
-                </div>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main">
+      <div class="w3-container w3-padding-16">
+        <a href="./">
+            <div class="w3-button w3-display-topleft" style="position: fixed; margin: 1rem 4rem; color: #fff; background-color: #317283; z-index: 995">
+              <h5><b><i class="fa fa-arrow-circle-left fa-fw"></i> Home</b></h5>
             </div>
+        </a>
+      </div>
+      <!-- Header -->
+      <header class="w3-container w3-padding-16" style="padding-left: 64px; margin-top: 4rem;">
+        <h3><b><i class="fa fa-users fa-fw"></i> About Me</b></h3>
+      </header>
+
+      <div class="w3-row-padding w3-margin-bottom" style="padding-left: 64px; padding-right: 64px;">
+        <div class="w3-quarter">
+          <div class="w3-container w3-teal w3-text-white w3-padding-16 w3-card-4">
+            <div>
+              <img src="./img/buba.jpg" style="width: 100%;">
+            </div>
+          </div>
         </div>
-        <!-- End page content -->
-    </body>
+        <div class="w3-threequarter">
+          <div class="w3-container w3-row-padding w3-white w3-padding-16" style="text-align: justify; padding-right: 40px; padding-left: 40px;">
+            <h6>Dear you. Let me introduce myself.</h6>
+            <h6>My name is <b>Mahbub Haq Al Farisi</b> and you can call me <b>Buba</b>. I am a web designer, front-end web developer, smartphone enthusiast, and a student who currently lived in Bandung, Indonesia.</h6>
+            <h6>If you ask about me to my friends, they will tell you that I am a detail oriented, have INTJ personality, perfectionist, neat, clean, fragrant, love korean and calm music, love to play piano, love to eat shrimp, and a Danz Base player. I'll put on my UwU face when I see my girlfriend, Eunha, hamsters, and cats.</h6>
+            <hr>
+            <h6><b>Umm... Give me fried shrimp for more. I really appreciate your effort.</b></h6>
+          </div>
+        </div>
+      </div>
+
+      <header class="w3-container" style="padding-left: 64px; padding-top: 50px;">
+        <h3><b><i class="fa fa-instagram fa-fw"></i> Photos</b></h3>
+      </header>
+    
+      <div class="w3-row-padding w3-margin-bottom" style="padding-left: 64px; padding-right: 64px;">
+        <?php
+          require('./feedinsta.php');
+        ?>
+        <hr>
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+  </body>
 </html>
