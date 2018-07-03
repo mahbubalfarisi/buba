@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <title>About</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - Buba</title>
   <link rel="stylesheet" href="./css/w3.css">
   <link rel="stylesheet" href="./css/mainstyle.css">
   <link href="https://fonts.googleapis.com/css?family=Megrim|Montserrat:300" rel="stylesheet">
@@ -26,7 +26,7 @@
 
       <div class="w3-row-padding w3-margin-bottom" style="padding-left: 64px; padding-right: 64px;">
         <div class="w3-quarter">
-          <div class="w3-container w3-teal w3-text-white w3-padding-16 w3-card-4">
+          <div class="w3-container w3-text-white w3-padding-16 w3-card-4" style="background-color: #317283">
             <div>
               <img src="./img/buba.jpg" style="width: 100%;">
             </div>

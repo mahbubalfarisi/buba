@@ -66,7 +66,7 @@
               <img class="product__img" src="./img/p5.JPG" alt="img 05"/>
               <h2 class="product__title">Cahatfood</h2>
               <h3 class="product__subtitle" style="margin: 0.5rem 0">My Business Project</h3>
-              <h3 class="product__subtitle"><a href="#" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/cahatfood" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
               <p class="product__description">Landing page project for my food product. Cahatfood is a healthy snack made from special cricket flour.</p>
             </div>
           </div>
@@ -76,8 +76,18 @@
               <img class="product__img" src="./img/p6.JPG" alt="img 06"/>
               <h2 class="product__title">SYNI</h2>
               <h3 class="product__subtitle" style="margin: 0.5rem 0">My Business Project</h3>
-              <h3 class="product__subtitle"><a href="#" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/syni" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
               <p class="product__description">Landing page project for my service product startup. SYNI is a peer-to-peer stuffs lending platform for university student.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p7.JPG" alt="img 07"/>
+              <h2 class="product__title">Smart Pond Temperature System with Arduino</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">My Assignment</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/tgf-imka" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Source</button></a></h3>
+              <p class="product__description">Front-end and Back-end web project for my final assignment of Human, Computer, and Interface Interaction subject. This web shows graphs from data in database server. Those data gained from a system made from Arduino and other component.</p>
             </div>
           </div>
         </div>
