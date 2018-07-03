@@ -350,14 +350,15 @@ main {
 		font-size: 0.75em;
 	}
 	.details {
-		padding: 30vh 0 5vh 10vw;
+		padding: 0;
 	}
 	.details__bg--down {
-		top: 30vh;
-		height: 70vh;
+		height: 100%;
+		background: var(--details-bg-down);
 	}
 	.details__title {
 		font-size: 2em;
+		margin-top: 50rem;
 	}
 	.details__subtitle {
 		font-size: 1em;
@@ -375,7 +376,10 @@ main {
 		width: 4em;
 	}
 	.details__img {
-		right: -12vh;
+		margin-left: 2rem;
+		height: auto;
+		width: 100%;
+		margin-right: 2rem;
 	}
 	.codrops-header {
 		padding: 1em 4em;

@@ -32,7 +32,7 @@ viewBox="0 0 13780 2362"
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
 
-  <g id="_726686240" class="contact w3-hover-opacity" style="cursor:pointer" onclick="showContact()">
+  <g id="_726686240" class="contact w3-hover-opacity" style="cursor:pointer" onclick="window.location.href='./contact'">
    <polygon class="fil18" points="7509,1213 6682,677 6694,251 7504,248 "/>
    <polygon class="fil19" points="6712,674 7489,1179 7516,2077 6706,2083 "/>
    <polygon class="fil20" points="7488,2086 7554,2086 7554,1179 7488,1179 "/>

@@ -19,7 +19,7 @@
         </a>
       </div>
       <div class="content">
-        <div class="grid">
+        <div class="grid" id="maingrid">
           <div class="grid__item">
             <div class="product">
               <div class="product__bg"></div>

@@ -10,7 +10,7 @@ viewBox="0 0 13780 5709"
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
 
-  <g id="_726239536" class="porto w3-hover-opacity" style="cursor:pointer" onclick="showPorto()">
+  <g id="_726239536" class="porto w3-hover-opacity" style="cursor:pointer" onclick="window.location.href='./porto'">
    <g>
     <polygon class="fil10" points="8386,5342 5186,5342 5186,3561 8386,3561 "/>
     <path class="fil3" d="M8402 5359l-3232 0 0 -1814 3232 0 0 1814zm-3200 -33l0 0 3167 0 0 -1749 -3167 0 0 1749z"/>

@@ -172,6 +172,9 @@
 
             this.DOM.details.classList.remove('details--open');
 
+            var element1 = document.getElementById("maingrid");
+            element1.style.display = "grid";
+
             anime({
                 targets: DOM.hamburger,
                 duration: 250,
@@ -257,6 +260,8 @@
                 productBg: this.DOM.productBg,
                 productImg: this.DOM.productImg
             });
+            var element1 = document.getElementById("maingrid");
+            element1.style.display = "none";
         }
     };
 

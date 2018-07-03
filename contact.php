@@ -27,11 +27,11 @@
 					<div class="w3-container w3-padding-32" id="contact">
 					    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="margin-top: 4rem">Fill the form below to send me an email</h3>
 					    <h6>Or maybe send some fried shrimp :)</h6>
-					    <form enctype="text/plain" method="get" action="mailto:mahbub.alfarisi@gmail.com">
-					      	<input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-					      	<input class="w3-input w3-section w3-border" type="text" placeholder="What do you wanna talk? (In a sentence)" required name="Subject">
-					      	<input class="w3-input w3-section w3-border" type="Email" placeholder="Email" required name="Email">
-					      	<textarea class="w3-input w3-section w3-border" type="text" placeholder="Messages" required name="Messages"></textarea>
+					    <form enctype="text/plain" method="get" action="./emailme.php">
+					      	<input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
+					      	<input class="w3-input w3-section w3-border" type="text" placeholder="What do you wanna talk? (In a sentence)" required name="subject">
+					      	<input class="w3-input w3-section w3-border" type="Email" placeholder="Email" required name="email">
+					      	<textarea class="w3-input w3-section w3-border" type="text" placeholder="Messages" required name="messages"></textarea>
 					      	<button class="w3-button w3-section" id="submit" name="submit" type="submit" value="Send" style="background-color: #317283">
 					        	<i class="fa fa-paper-plane"></i> SEND EMAIL
 					      	</button>
