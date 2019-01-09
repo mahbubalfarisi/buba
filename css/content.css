@@ -1,0 +1,113 @@
+.icon-close {
+	z-index: 100;
+	display: block;
+	overflow: hidden;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	line-height: 3;
+	cursor: pointer;
+}
+
+.icon:before {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'icomoon';
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cog::before {
+	content: "\e600";
+}
+
+.icon-close::before {
+	content: "\e601";
+}
+
+.icon-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.icon-close:hover {
+	color: #a50a05;
+}
+
+/* Styles for dummy content */
+
+.content-style-overlay .icon-close {
+	border: 2px solid #f9e1c9;
+	border-radius: 50%;
+	line-height: 2.8;
+}
+
+.content-style-overlay .icon-close:hover {
+	border-color: #a50a05;	
+}
+
+.content-style-text .icon-close {
+	top: 0;
+	right: 0;
+	color: rgba(0,0,0,0.2);
+}
+
+.content-style-text .icon-close:hover {
+	color: #f9e1c9;
+}
+
+/*Sidebar*/
+.content-style-sidebar h2 {
+	font-weight: 300;
+	font-size: 2em;
+	padding: 0.75em 0 0.75em 1em;
+	margin: 0;
+	color: #fff;
+}
+
+.content-style-sidebar .icon-close {
+	top: 0;
+	right: 0;
+	font-size: 0.85em;
+}
+
+.content-style-sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.content-style-sidebar ul li a {
+	display: block;
+	padding: 12px 20px;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.05em;
+	box-shadow: inset 0 1px rgba(0,0,0,0.1);
+}
+
+.content-style-sidebar ul li:last-child a {
+	box-shadow: inset 0 1px rgba(0,0,0,0.1), inset 0 -1px rgba(0,0,0,0.1);
+}
+
+.content-style-sidebar ul li a:hover {
+	background: rgba(0,0,0,0.1);
+	box-shadow: none;
+}
+
+.content-style-sidebar ul .icon::before {
+	display: inline-block;
+	width: auto;
+	margin-right: 20px;
+	font-size: 1.5em;
+	vertical-align: -10%;
+	color: rgba(0,0,0,0.2);
+}

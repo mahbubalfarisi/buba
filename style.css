@@ -1,0 +1,141 @@
+body,h1,h5 {
+                font-family: "Raleway", sans-serif
+            }
+            body, html {
+                background-color: #1B2355;
+                overflow: auto;
+            }
+            .maincontainer {
+                /*background-image: url("./img/buba.JPG");*/
+                min-height: 88%;
+                height: auto !important;
+                background-position: center;
+                background-size: cover;
+                margin: 3%;
+                -moz-box-shadow: 1px 1px 55px 2px #000;
+                -webkit-box-shadow: 1px 1px 55px 2px #000;
+                box-shadow: 1px 1px 55px 2px #000;
+            }
+            .innercontainer1 {
+                /*background-image: url("./img/back1.gif");*/
+                min-height: 88%;
+                float: left;
+                width: 50%;
+                height: 88%;
+                display: flex;
+                background-position: center;
+                background-size: cover;
+                background-color: #79b7d7;
+            }
+            .innercontainer2 {
+                /*background-image: url("./img/tesgif.gif");*/
+                min-height: 88%;
+                float: right;
+                width: 50%;
+                background-position: center;
+                background-size: cover;
+                background-color: #8cc1dd;
+                background-image: -webkit-linear-gradient(130deg, #8cc1dd 95%, #65acd1 55%);
+                padding-top: 10%;
+            }
+
+            .incon1-box1 {
+                margin-right: auto;
+                margin-left: 10%;
+                margin-top: 23%;
+                margin-bottom: auto;
+                width: 300px;
+            }
+
+            .incon1-box2 {
+                margin-right: auto;
+                margin-left: -13%;
+                margin-top: 15%;
+                margin-bottom: auto;
+                background-color: #79b7d7;
+                width: 300px;
+                height: 250px;
+            }
+
+            .incon1-box3 {
+                margin-right: auto;
+                margin-left: -50%;
+                margin-top: 14%;
+                margin-bottom: auto;
+                background-color: #fff;
+                width: 300px;
+                height: 250px;
+                padding: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
+                color: #000;
+            }
+
+            .shadowmed {
+                -moz-box-shadow: 1px 6px 20px 2px #000;
+                -webkit-box-shadow: 1px 6px 20px 2px #000;
+                box-shadow: 1px 6px 20px 2px #000;
+            }
+
+            .twocolumn {
+                -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                -moz-column-count: 2; /* Firefox */
+                column-count: 2;
+            }
+
+/* The Close Button */
+.close1 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close3 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close4 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

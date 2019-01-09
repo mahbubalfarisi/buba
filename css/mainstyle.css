@@ -1,0 +1,120 @@
+
+body,h1,h2,h3,h4,h5,h6,p {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    min-height: 100%;
+    background-position: center;
+    background-image: url("../img/back.png");
+}
+
+.contact, .blog, .photos, .porto {
+    transition: transform .2s;
+    opacity: 1;
+}
+
+.contact:hover {
+    transform: scale(1.02);
+    opacity: 1;
+    z-index: 999;
+}
+
+.blog:hover {
+    transform: scale(1.02);
+    opacity: 1;
+    z-index: 999;
+}
+
+.photos:hover {
+    transform: scale(1.02);
+    opacity: 1;
+    z-index: 999;
+}
+
+.porto:hover {
+    transform: scale(1.02);
+    opacity: 1;
+    z-index: 999;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.lightwidget {
+    width:100%;
+    border:0;
+    display: inline-block;
+    padding: 0rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+.lightwidget__image {
+    width: 100%;
+    border:0;
+    padding: 0.2rem;
+}
+
+.lightwidget__caption {
+    display: none;
+}
+
+.lightwidget__photo {
+    margin: 0;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
+
+.min-contact {
+    display: block;
+}
+
+.min-porto {
+    display: block;
+}
+
+.min-blog {
+    display: block;
+}
+
+.min-about {
+    display: block;
+}
+
+.usual {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .min-contact {
+        display: none;
+    }
+
+    .min-porto {
+        display: none;
+    }
+
+    .min-blog {
+        display: none;
+    }
+
+    .min-about {
+        display: none;
+    }
+
+    .usual {
+        display: block;
+    }
+}
+
+.vertical{
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform: rotate(90deg);
+    display:block;
+}
