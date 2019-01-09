@@ -7,10 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Megrim|Montserrat:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="./img/favicon.ico">
-	<style type="text/css">
-
-	</style>
-
 	<script type="text/javascript">
 		function toglamp() {
 		    var element = document.getElementById("_780833856");
@@ -28,11 +24,9 @@
    			homeel2.classList.toggle("shownotiflamp");
 		};
 	</script>
-
 	<head>
 		<title>Buba</title>
     </head>
-
 		<div class="w3-container">
 			<!-- Modal Contact -->
 		  	<div id="modal-contact" class="w3-modal">

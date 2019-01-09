@@ -8,7 +8,10 @@
     <link rel="stylesheet" type="text/css" href="./css/base.css" />
     <link rel="stylesheet" type="text/css" href="./css/w3.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<<<<<<< HEAD
     <link rel="shortcut icon" href="./img/favicon.ico">
+=======
+>>>>>>> 48a0a2c74f85d272d093d1d355209471e59a88c1
   </head>
   <body>
     <main>
@@ -21,6 +24,7 @@
       </div>
       <div class="content">
         <div class="grid" id="maingrid">
+<<<<<<< HEAD
           <!-- Baris ke 1 -->
           <div class="w3-row">
             <div class="w3-half w3-container">
@@ -115,6 +119,76 @@
                   <p class="product__description">Front-end and Back-end web project for my final assignment of Human, Computer, and Interface Interaction subject. This web shows graphs from data in database server. Those data gained from a system made from Arduino and other component.</p>
                 </div>
               </div>
+=======
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p1.jpg" alt="img 01"/>
+              <h4 class="product__title">Keluarga Batik Betawi Indonesia</h4>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">Personal Project</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/kbbi_project" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Project Source</button></a></h3>
+              <p class="product__description" style="display: none;">Front-end web for final project display about Batik Betawi. Using include method inside for clean code.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p2.jpg" alt="img 02"/>
+              <h2 class="product__title">Rumah Berbagi</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">Personal Project</h3>
+              <h3 class="product__subtitle"><a href="http://ysfmuchtar.com/bandungberbagi/" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
+              <p class="product__description">Front-end web project for final project about photography community. Using only simple and easy to read code.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p3.JPG" alt="img 03"/>
+              <h2 class="product__title">Global Health Diplomacy</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">Freelance Project</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/nurizkaf96/ghd-indohun" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Project Source</button></a></h3>
+              <p class="product__description">Front-end web project for Indonesia One Health University Network - Global Health Diplomacy. This web is my contract's outcome with Meridian.id as a freelancer.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p4.JPG" alt="img 04"/>
+              <h2 class="product__title">Borma Toserba</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">My Assignment</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/tgs-borma" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Project Source</button></a></h3>
+              <p class="product__description">Front-end web project for my final assignment of Enterprise Requirement Analysis subject.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p5.JPG" alt="img 05"/>
+              <h2 class="product__title">Cahatfood</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">My Business Project</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/cahatfood" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
+              <p class="product__description">Landing page project for my food product. Cahatfood is a healthy snack made from special cricket flour.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p6.JPG" alt="img 06"/>
+              <h2 class="product__title">SYNI</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">My Business Project</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/syni" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Web</button></a></h3>
+              <p class="product__description">Landing page project for my service product startup. SYNI is a peer-to-peer stuffs lending platform for university student.</p>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="product">
+              <div class="product__bg"></div>
+              <img class="product__img" src="./img/p7.JPG" alt="img 07"/>
+              <h2 class="product__title">Smart Pond Temperature System with Arduino</h2>
+              <h3 class="product__subtitle" style="margin: 0.5rem 0">My Assignment</h3>
+              <h3 class="product__subtitle"><a href="https://github.com/mahbubalfarisi/tgf-imka" style="text-decoration: none;" target="blank"><button class="details__addtocart">Open Source</button></a></h3>
+              <p class="product__description">Front-end and Back-end web project for my final assignment of Human, Computer, and Interface Interaction subject. This web shows graphs from data in database server. Those data gained from a system made from Arduino and other component.</p>
+>>>>>>> 48a0a2c74f85d272d093d1d355209471e59a88c1
             </div>
           </div>
         </div>

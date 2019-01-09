@@ -9,7 +9,11 @@ viewBox="0 0 13780 2362"
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
 
+<<<<<<< HEAD
   <g id="_724381248" class="blog w3-hover-opacity" style="cursor:pointer" onclick="window.location.href='https://writtenbuba.blogspot.com/'">
+=======
+  <g id="_724381248" class="blog w3-hover-opacity" style="cursor:pointer" onclick="window.open('http://www.buba-kun.blogspot.com')">
+>>>>>>> 48a0a2c74f85d272d093d1d355209471e59a88c1
    <polygon class="fil11" points="5953,1407 6057,1448 6559,193 6455,151 "/>
    <path class="fil10" d="M6299 530l152 -380 103 41 -152 380c-33,-13 -68,-27 -103,-42z"/>
    <path class="fil1" d="M6434 110l159 64 -175 436 -28 -11c-33,-13 -68,-27 -103,-42l-28 -11 174 -436zm34 78l0 0 -130 324c16,6 32,13 47,19l130 -324 -47 -19z"/>
