@@ -88,6 +88,34 @@ svg {
     display: none;
 }
 
+/* LAMP */
+.fillampoff {
+    fill: #000;
+    pointer-events: auto;
+}
+
+.dark {
+    opacity: 0.3;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%; 
+    z-index: 9;
+}
+
+.shownotiflamp {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    color: #fff;
+}
+
+.clickof {
+    pointer-events: none;
+}
+
+/* END OF LAMP */
+
 @media only screen and (min-width: 768px) {
     .min-contact {
         display: none;
