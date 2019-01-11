@@ -50,9 +50,9 @@ body {font-size:16px;}
   <div class="w3-row-padding">
     <?php
       $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $dbname = "bubadex";
+      $username = "id2643351_bubabuba";
+      $password = "bubabubabuba";
+      $dbname = "id2643351_bubadex";
 
       // Create connection
       $conn = mysqli_connect($servername, $username, $password, $dbname);

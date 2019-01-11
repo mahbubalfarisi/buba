@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Add Pokemon</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,10 +15,10 @@ body {font-size:16px;}
 <body>
 
   <?php
-     $servername = "localhost";
-     $username = "root";
-     $password = "";
-     $dbname = "bubadex";
+      $servername = "localhost";
+      $username = "id2643351_bubabuba";
+      $password = "bubabubabuba";
+      $dbname = "id2643351_bubadex";
 
      // Create connection
      $conn = mysqli_connect($servername, $username, $password, $dbname);

@@ -7,7 +7,7 @@
 		<title>Happy Birthday</title>
 		<meta name="description" content="Happy Birthday Bebskiii!!" />
 		<meta name="author" content="Buba" />
-		<link rel="shortcut icon" href="../img/favicon.ico">
+		<link rel="shortcut icon" href="../../img/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />

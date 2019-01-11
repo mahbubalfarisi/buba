@@ -11,12 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="./css/component.css" />
 		<link rel="stylesheet" type="text/css" href="./css/content.css" />
 		<link rel="stylesheet" type="text/css" href="./css/w3.css" />
-<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="./img/favicon.ico">
-=======
-    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
->>>>>>> 48a0a2c74f85d272d093d1d355209471e59a88c1
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
@@ -32,11 +28,7 @@
 					<div class="w3-container w3-padding-32" id="contact">
 					    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="margin-top: 4rem">Fill the form below to send me an email</h3>
 					    <h6>Or maybe send some fried shrimp :)</h6>
-<<<<<<< HEAD
 					    <form method="post" name="formemail" action="./emailme.php">
-=======
-					    <form enctype="text/plain" method="get" action="./emailme.php">
->>>>>>> 48a0a2c74f85d272d093d1d355209471e59a88c1
 					      	<input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
 					      	<input class="w3-input w3-section w3-border" type="text" placeholder="What do you wanna talk? (In a sentence)" required name="subject">
 					      	<input class="w3-input w3-section w3-border" type="Email" placeholder="Email" required name="email">

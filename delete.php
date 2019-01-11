@@ -1,9 +1,9 @@
 <?php
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "bubadex";
+      $servername = "localhost";
+      $username = "id2643351_bubabuba";
+      $password = "bubabubabuba";
+      $dbname = "id2643351_bubadex";
 	$delname = $_GET['name'];
 
 	// Create connection
