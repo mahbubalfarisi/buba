@@ -11,51 +11,13 @@
 	<head>
 		<title>Buba</title>
     </head>
-		<div class="w3-container">
-			<!-- Modal Contact -->
-		  	<div id="modal-contact" class="w3-modal">
-		    	<div class="bgimg w3-modal-content w3-animate-top w3-card-4">
-		      		<header class="w3-container w3-teal"> 
-		        		<span onclick="document.getElementById('modal-contact').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		        		<h2>Modal Header</h2>
-		      		</header>
-		      		<div class="w3-container">
-		        		<p>Some text..</p>
-		        		<p>Some text..</p>
-		      		</div>
-		      		<footer class="w3-container w3-teal">
-		        		<p>Modal Footer</p>
-		      		</footer>
-		    	</div>
-		  	</div>
-		  	<!-- End of Modal Contact -->
-
-		  	<!-- Modal Porto -->
-		  	<div id="modal-porto" class="w3-modal">
-		    	<div class="w3-modal-content w3-animate-top w3-card-4">
-		      		<header class="w3-container w3-teal"> 
-		        		<span onclick="document.getElementById('modal-porto').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		        		<h2>Modal Header</h2>
-		      		</header>
-		      		<div class="w3-container">
-		        		<p>Some text..</p>
-		        		<p>Some text..</p>
-		      		</div>
-		      		<footer class="w3-container w3-teal">
-		        		<p>Modal Footer</p>
-		      		</footer>
-		    	</div>
-		  	</div>
-		  	<!-- End of Modal Porto -->
-		</div>
-
 	<!-- Body -->
     <body>
     	<div id="notif" class="shownotiflamp w3-display-middle">
 			<h2>Don't forget to turn the light on :)</h2>
 		</div>
-		<div id="homex2">
-			<div id="homex" class="bgimg w3-container w3-display-container w3-animate-opacity w3-text-black">
+		<div id="homex2" class="bgimg">
+			<div id="homex">
 				<div class="usual">
 					<?php
 						require('./buba.svg');
@@ -89,9 +51,6 @@
 					<h3>Contact</h3>
 					<hr>
 				</div>
-			  	<div class="usual w3-display-bottomleft w3-padding-large" style="position: fixed;">
-			    	<h6>Designed by Buba</h6>
-			  	</div>
 		  	</div>
 		</div>
 	</body>

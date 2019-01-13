@@ -1,3 +1,6 @@
+<?php
+   include('../../session.php');
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -8,13 +11,38 @@
 		<meta name="description" content="Happy Birthday Bebskiii!!" />
 		<meta name="author" content="Buba" />
 		<link rel="shortcut icon" href="../../img/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="./css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="./css/bookblock.css" />
+		<link rel="stylesheet" type="text/css" href="./css/component.css" />
+		<link rel="stylesheet" type="text/css" href="./css/fontbirth.css" />
+		<!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+		<!-- <link rel="stylesheet" href="../css/animate.css"> -->
+		<!-- <link rel="stylesheet" href="../css/templatemo-style.css"> -->
+
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+		<script src="./js/modernizr.custom.js"></script>
 	</head>
 	<body>
+		<!-- Navigation Section -->
+		<!-- <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+			<div class="container"> -->
+				<!-- navbar header -->
+				<!-- <div class="navbar-header">
+				   <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				        <span class="icon icon-bar"></span>
+				        <span class="icon icon-bar"></span>
+				        <span class="icon icon-bar"></span>
+				   </button>
+				</div>
+				<div class="collapse navbar-collapse">
+				   	<ul class="nav navbar-nav navbar-right">
+				        <li><a href="../" class="smoothScroll">Home</a></li>
+				        <li><a href="../../logout.php" class="smoothScroll">Sign Out</a></li>
+				   	</ul>
+				</div>
+			</div>
+		</div> -->
 		<div id="scroll-wrap" class="container">
 			<div class="main">
 				<div id="bookshelf" class="bookshelf">
@@ -127,8 +155,14 @@
 				<a href="#" class="bb-nav-close">Close</a>
 			</nav>
 		</div>
-		<script src="js/bookblock.min.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/bookshelf.js"></script>
+		<script src="./js/bookblock.min.js"></script>
+		<script src="./js/classie.js"></script>
+		<script src="./js/bookshelf.js"></script>
 	</body>
+<!-- <script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.parallax.js"></script>
+<script src="../js/smoothscroll.js"></script>
+<script src="../js/wow.min.js"></script>
+<script src="../js/custom.js"></script> -->
 </html>

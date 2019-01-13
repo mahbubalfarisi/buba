@@ -2,9 +2,9 @@
 body,h1,h2,h3,h4,h5,h6,p {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-    min-height: 100%;
     background-position: center;
     background-image: url("../img/back.png");
+    background-size: cover; 
 }
 
 .contact, .blog, .photos, .porto {

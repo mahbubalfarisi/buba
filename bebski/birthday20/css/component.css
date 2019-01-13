@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+.h2birth {
+    line-height: 1em;
+}
+
 .container.hide-overflow { overflow: hidden }
 
 .main {
