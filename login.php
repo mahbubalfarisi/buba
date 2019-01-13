@@ -105,6 +105,11 @@
           cursor: pointer;
       }
 
+      .buba-bottom {
+        position: absolute;
+        bottom: 0;
+      }
+
       .buba-input{
         padding: 8px;
         padding-left: 20px;
@@ -119,14 +124,28 @@
         -webkit-border-radius: 50px;
       }
 
+      .login-container {
+        width: 30%;
+      }
+      
       /* alert if username or password isn't correct */
       .alert {
         padding: 20px;
         background-color: #f44336;
         color: white;
-        width: 30%;
+        width: 60%;
         text-align: center;
         visibility: hidden;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .login-container {
+          width: 80%;
+        }
+
+        .alert {
+          width: 100%;
+        }
       }
 
       .closebtn {
@@ -345,6 +364,7 @@
 
 <body>
   <div class="bgimg w3-display-container">
+    <!-- rotating cube bubbles -->
     <div id="bubbles">
         <div class="bubble x1"></div>
         <div class="bubble x2"></div>
@@ -362,7 +382,7 @@
         </div>
       </a>
     </div>
-    <div class="w3-display-middle" style="width: 30%;">
+    <div class="w3-display-middle login-container">
       <h4 style="text-align: center;">Please login first</h4>
       <form action=" " method="POST">
         <div class="w3-row-padding" style="margin:0 -16px 0px -16px;">
@@ -374,7 +394,7 @@
           <button id='login-button' class="w3-btn w3-teal w3-right w3-section w3-hover-black" value='Login' type="submit">Login</button>
       </form>
     </div>
-    <div id="errormessage" class="alert <?php if ($isErr == true) echo 'alShow'; ?> w3-display-bottommiddle">
+    <div id="errormessage" class="alert <?php if ($isErr == true) echo 'alShow'; ?> buba-bottom">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
       <?php
         echo $error;
